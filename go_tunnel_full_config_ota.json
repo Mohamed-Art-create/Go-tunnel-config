@@ -1,0 +1,45 @@
+{
+    "app_name": "Go Tunnel",
+    "theme": {
+        "background_color": "#0D1117",
+        "accent_color": "#1F6FEB",
+        "text_color_primary": "#FFFFFF",
+        "text_color_secondary": "#A5B1C2",
+        "button_disabled_color": "#3B3B3B",
+        "dark_mode": true
+    },
+    "fonts": {
+        "primary": "Roboto",
+        "title_style": "bold",
+        "body_style": "regular"
+    },
+    "ui": {
+        "button_shape": "rounded",
+        "button_radius": 16,
+        "connect_button_effect": "ripple",
+        "animation_on_connect": "halo"
+    },
+    "strings": {
+        "welcome_title": "Bienvenue sur Go Tunnel",
+        "welcome_subtitle": "Naviguez librement, sans limites.",
+        "connect_button": "🔵 Connecter",
+        "disconnect_button": "🔴 Déconnecter",
+        "connected_status": "🟢 Connecté - Votre connexion est sécurisée",
+        "disconnected_status": "🔴 Non connecté - Votre connexion n’est pas sécurisée",
+        "connecting_status": "🔄 Connexion en cours...",
+        "connect_success": "🎉 Vous êtes maintenant protégé !",
+        "connect_error": "❌ Échec de la connexion. Réessayez.",
+        "disconnect_success": "🔓 Vous êtes déconnecté.",
+        "connected_server": "🌍 Connecté à : {{server_name}}"
+    },
+    "options": {
+        "ads_enabled": false,
+        "ota_config_update": true,
+        "ota_config_url": "https://raw.githubusercontent.com/USERNAME/GoTunnelConfig/main/go_tunnel_full_config.json",
+        "custom_splash_screen": true,
+        "side_menu_enabled": false,
+        "vpn_stays_on": true,
+        "auto_reconnect": true,
+        "battery_optimization_ignore": true
+    }
+}
